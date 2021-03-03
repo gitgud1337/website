@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+    font-size: 1rem;
+    /*background-color: #b59d50;*/
+    background-color: #82754a;
+}
+
+.icon {
+    color: #1D1D1B;
+}
+
+.icon:hover {
+    color: #82754a;
+}
+
+.logoRow {
+    margin: 20px;
+    /*border-width: 8px;
+    border-style: solid;
+    border-color: #363533;*/
+}
+
+/*.igCol {
+    border-width: 8px;
+    border-style: solid;
+    border-color: #363533;
+}*/
