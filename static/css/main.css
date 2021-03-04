@@ -1,9 +1,10 @@
-html,
-body {
+html, body {
     height: 100%;
     font-size: 1rem;
     /*background-color: #b59d50;*/
     background-color: #82754a;
+    font-family: 'Kumar One', cursive;
+    color: #1D1D1B;
 }
 
 .icon {
@@ -15,10 +16,10 @@ body {
 }
 
 .logoRow {
-    margin: 20px;
-    /*border-width: 8px;
+    margin: 0px;
+    border-width: 8px;
     border-style: solid;
-    border-color: #363533;*/
+    border-color: #363533;
 }
 
 /*.igCol {
@@ -26,3 +27,63 @@ body {
     border-style: solid;
     border-color: #363533;
 }*/
+
+.fade-in {
+    animation: fadeIn ease 8s;
+    -webkit-animation: fadeIn ease 8s;
+    -moz-animation: fadeIn ease 8s;
+    -o-animation: fadeIn ease 8s;
+    -ms-animation: fadeIn ease 8s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.logoCol{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
