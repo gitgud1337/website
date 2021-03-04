@@ -26,18 +26,18 @@
         </div>
 
         <!--DIV uppe eller nere med adress, tel, email å ig?-->
-
-        <div class="row align-items-center justify-content-center">
-            <!-- align-items-center justify-content-center-->
-            <div class="col-8 adressCol">
-                <p>Heleneborgsgatan 21, 117 31 Stockholm</p>
-            </div>
-            <div class="col-4 igCol">
-                <!-- -4 d-flex justify-content-center -->
-                <a href="https://instagram.com" target="_blank" class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-instagram" viewBox="0 0 16 16">
-                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 
+        <div class="fade-in-2">
+            <div class="row">
+                <!-- align-items-center justify-content-center-->
+                <div class="col-6 d-flex justify-content-center adressCol">
+                    <p>Heleneborgsgatan 21, 117 31 Stockholm</p>
+                </div>
+                <div class="col-6 d-flex justify-content-center igCol">
+                    <!-- -4 d-flex justify-content-center -->
+                    <a href="https://instagram.com" target="_blank" class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 
                         0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 
                         5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 
                         1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 
@@ -53,9 +53,9 @@
                         0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 
                         1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 
                         1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
-                    </svg>
-                </a>
-
+                        </svg>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -67,8 +67,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <!--<script src="js/script.js"></script>-->
     <script type="text/javascript">
-        $(document).mousemove(function(e) {
-            $('.pointer').css({left:e.pageX, top:e.pageY});
+        $(document).mousemove(function (e) {
+            $('.pointer').css({ left: e.pageX, top: e.pageY });
         })
     </script>
 

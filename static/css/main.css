@@ -23,12 +23,41 @@ html, body {
     border-color: #363533;
 }
 
-/*.igCol {
+.igCol {
     border-width: 8px;
     border-style: solid;
     border-color: #363533;
-}*/
+}
 
+.adressCol {
+    border-width: 8px;
+    border-style: solid;
+    border-color: #363533;
+}
+
+.logoCol {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CURSOR*/
+.pointer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(84, 104, 117, .9);
+    border: 1px solid rgba(54, 64, 71, alpha);
+    border-radius: 50%;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+/*FADE STUFF*/
 .fade-in {
     animation: fadeIn ease 8s;
     -webkit-animation: fadeIn ease 8s;
@@ -82,23 +111,70 @@ html, body {
     }
 }
 
-.logoCol {
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/*.fade-in-2 {
+    animation: fadeIn2 ease 10s;
+    -webkit-animation: fadeIn2 ease 10s;
+    -moz-animation: fadeIn2 ease 10s;
+    -o-animation: fadeIn2 ease 10s;
+    -ms-animation: fadeIn2 ease 10s;
 }
 
-.pointer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 40px;
-    height: 40px;
-    background: rgba(84, 104, 117, .9);
-    border: 1px solid rgba(54, 64, 71, alpha);
-    border-radius: 50%;
-    pointer-events: none;
-    box-sizing: border-box;
+@keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
+
+@-moz-keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}*/
