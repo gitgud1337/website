@@ -4,14 +4,15 @@ html, body {
     /*background-color: #3e6682;*/
     /*background-color: #82754a;*/
     /*background-color: #423c29;*/
-    background-color: #615736;
+    /*background-color: #615736;*/
+    background-color: #6e6443;
     font-family: 'Kumar One', cursive;
     color: #1D1D1B;
     cursor: none;
 }
 
-
 /* INTRO */
+
 .splash {
     background-color: #3e6682;
     position: fixed;
@@ -20,25 +21,25 @@ html, body {
     height: 100vh;
     width: 100%;
     z-index: 1;
-    transition: 1s;
+    transition: 1.5s;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
 /*.splashCon {
-    position: fixed;
+    left: 0;
+    top: 0;
 }
 
 .splashRow {
-    border-width: 1px;
-    border-style: solid;
-    border-color: #363533;
+    left: 0;
+    top: 0;
 }
 
 .splashCol {
-    justify-content: center;
-    align-items: center;
+    left: 0;
+    top: 0;
 }*/
 
 .logo {
@@ -59,8 +60,8 @@ html, body {
     transition: ease-in-out 0.5s;
 }
 
-
 /* CURSOR */
+
 .pointer {
     position: absolute;
     top: 50%;
@@ -75,19 +76,34 @@ html, body {
     box-sizing: border-box;
 }
 
+/* ACTUAL LANDINGPAGE */
+.landingPageCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.adressText {
+    font-size: 0.8em;
+}
 
 /* FADE STUFF */
+
 /*
 .fade-in {
-    animation: fadeIn ease 4s;
-    -webkit-animation: fadeIn ease 4s;
-    -moz-animation: fadeIn ease 4s;
-    -o-animation: fadeIn ease 4s;
-    -ms-animation: fadeIn ease 4s;
+    animation: fadeIn ease 16s;
+    -webkit-animation: fadeIn ease 16s;
+    -moz-animation: fadeIn ease 16s;
+    -o-animation: fadeIn ease 16s;
+    -ms-animation: fadeIn ease 16s;
 }
 
 @keyframes fadeIn {
     0% {
+        opacity: 0;
+    }
+    66% {
         opacity: 0;
     }
     100% {

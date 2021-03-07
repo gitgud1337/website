@@ -1,3 +1,4 @@
+// INTRO
 let intro = document.querySelector('.splash');
 let logoSpan = document.querySelectorAll('.logo');
 
@@ -7,16 +8,15 @@ window.addEventListener('DOMContentLoaded', () => {
         logoSpan.forEach((img, idx)=>{
             setTimeout(()=>{
                 img.classList.add('active');
-            }, (idx + 1) * 666)
+            }, (idx + 1) * 888)
         });
 
         setTimeout(()=>{
             logoSpan.forEach((img, idx)=>{
-
                 setTimeout(()=>{
                     img.classList.remove('active');
                     img.classList.add('fade');
-                }, (idx + 1) * 666)
+                }, (idx + 1) * 888)
             })
         }, 2000);
 
@@ -32,3 +32,6 @@ window.addEventListener('DOMContentLoaded', () => {
 $(document).mousemove(function (e) {
     $('.pointer').css({ left: e.pageX, top: e.pageY });
 })
+
+
+// OTHER
