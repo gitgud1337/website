@@ -1,0 +1,132 @@
+html, body {
+    height: 100%;
+    font-size: 1rem;
+    /*background-color: #3e6682;*/
+    /*background-color: #82754a;*/
+    /*background-color: #423c29;*/
+    background-color: #615736;
+    font-family: 'Kumar One', cursive;
+    color: #1D1D1B;
+    cursor: none;
+}
+
+
+/* INTRO */
+.splash {
+    background-color: #3e6682;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    transition: 1s;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*.splashCon {
+    position: fixed;
+}
+
+.splashRow {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #363533;
+}
+
+.splashCol {
+    justify-content: center;
+    align-items: center;
+}*/
+
+.logo {
+    display: inline-block;
+    bottom: -40px;
+    opacity: 0;
+}
+
+.logo.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.logo.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+
+
+/* CURSOR */
+.pointer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(84, 104, 117, .9);
+    border: 1px solid rgba(54, 64, 71, alpha);
+    border-radius: 50%;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+
+/* FADE STUFF */
+/*
+.fade-in {
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}*/
