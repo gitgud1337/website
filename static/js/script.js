@@ -8,7 +8,7 @@ window.addEventListener('DOMContentLoaded', () => {
         logoSpan.forEach((img, idx)=>{
             setTimeout(()=>{
                 img.classList.add('active');
-            }, (idx + 1) * 888)
+            }, (idx + 1) * 777)
         });
 
         setTimeout(()=>{
@@ -16,7 +16,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 setTimeout(()=>{
                     img.classList.remove('active');
                     img.classList.add('fade');
-                }, (idx + 1) * 888)
+                }, (idx + 1) * 777)
             })
         }, 2000);
 

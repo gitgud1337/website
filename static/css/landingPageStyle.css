@@ -11,13 +11,13 @@ html, body {
     cursor: none;
 }
 
-/* INTRO */
 
+/* INTRO */
 .splash {
     background-color: #3e6682;
     position: fixed;
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
     height: 100vh;
     width: 100%;
     z-index: 1;
@@ -28,40 +28,41 @@ html, body {
 }
 
 /*.splashCon {
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
 }
 
 .splashRow {
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
 }
 
 .splashCol {
-    left: 0;
-    top: 0;
+    left: 0px;
+    top: 0px;
 }*/
 
 .logo {
     display: inline-block;
-    bottom: -40px;
     opacity: 0;
+    position: relative;
+    bottom: -555px;
 }
 
 .logo.active {
-    bottom: 0;
     opacity: 1;
     transition: ease-in-out 0.5s;
+    bottom: 0px;
 }
 
 .logo.fade {
-    bottom: 150px;
     opacity: 0;
     transition: ease-in-out 0.5s;
+    bottom: 444px;
 }
 
-/* CURSOR */
 
+/* CURSOR */
 .pointer {
     position: absolute;
     top: 50%;
@@ -76,34 +77,39 @@ html, body {
     box-sizing: border-box;
 }
 
-/* ACTUAL LANDINGPAGE */
+
+/* LANDINGPAGE */
 .landingPageCol {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80vh;
+    /*margin-top: 100px;*/
+    border-width: 1px;
+    border-style: solid;
+    border-color: #363533;
 }
 
 .adressText {
     font-size: 0.8em;
 }
 
-/* FADE STUFF */
 
+/* FADE STUFF */
 /*
 .fade-in {
-    animation: fadeIn ease 16s;
-    -webkit-animation: fadeIn ease 16s;
-    -moz-animation: fadeIn ease 16s;
-    -o-animation: fadeIn ease 16s;
-    -ms-animation: fadeIn ease 16s;
+    animation: fadeIn ease 6.5s;
+    -webkit-animation: fadeIn ease 6.5s;
+    -moz-animation: fadeIn ease 6.5s;
+    -o-animation: fadeIn ease 6.5s;
+    -ms-animation: fadeIn ease 6.5s;
 }
 
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
-    66% {
+    88% {
         opacity: 0;
     }
     100% {
@@ -145,4 +151,5 @@ html, body {
     100% {
         opacity: 1;
     }
-}*/
+}
+*/
