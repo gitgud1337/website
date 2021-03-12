@@ -83,6 +83,7 @@ h1, h2, h3, h4, h5, h6, p {
     background: none;
     border: none;
     font-size: 2.4rem;
+    color: #1D1D1B;
 }
 
 .artistButton:hover{

@@ -46,9 +46,9 @@ items.forEach((link, i) => {
 })
 
 // SCROLL DOWN TO ARTIST COLUMN
-$(".artistButton").click(function () {
-    $('html,body').animate({
-        scrollTop: $(".artistsTitle").offset().top
-    },
-        'slow');
-});
+// $(".artistButton").click(function () {
+//     $('html,body').animate({
+//         scrollTop: $(".artistsTitle").offset().top
+//     },
+//         'slow');
+// });
