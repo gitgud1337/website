@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* INTRO */
 
-/*
+
 .splash {
     background-color: #3e6682;
     position: fixed;
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6, p {
     opacity: 0;
     transition: ease-in-out 0.5s;
     bottom: 444px;
-}*/
+}
 
 /* CURSOR */
 
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #3e6682;
     padding: 0.4em 0;
     text-align: center;
-    opacity: 0;
+    margin-bottom: 2em;
     /*border-width: 1px;
     border-style: solid;
     border-color: #1D1D1B;*/
@@ -226,16 +226,17 @@ h1, h2, h3, h4, h5, h6, p {
 
 .artistCard {
     background-color: #264028;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
     transition: 0.3s;
+    margin-bottom: 2em;
 }
 
 .artistCard:hover {
-    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.8);
 }
 
 .cardImageCol {
-
+    margin-top: 0.6em;
 }
 
 .cardNameCol {
@@ -250,7 +251,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* FADE STUFF */
 
-/*
+
 .fade-in-logo {
     animation: fadeInLogo ease 6.5s;
     -webkit-animation: fadeInLogo ease 6.5s;
@@ -441,4 +442,4 @@ h1, h2, h3, h4, h5, h6, p {
     100% {
         opacity: 1;
     }
-}*/
+}

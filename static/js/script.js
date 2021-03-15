@@ -1,31 +1,31 @@
 // INTRO
-// let intro = document.querySelector('.splash');
-// let logoSpan = document.querySelectorAll('.logo');
+let intro = document.querySelector('.splash');
+let logoSpan = document.querySelectorAll('.logo');
 
-// window.addEventListener('DOMContentLoaded', () => {
-//     setTimeout(() => {
+window.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
 
-//         logoSpan.forEach((img, idx) => {
-//             setTimeout(() => {
-//                 img.classList.add('active');
-//             }, (idx + 1) * 777)
-//         });
+        logoSpan.forEach((img, idx) => {
+            setTimeout(() => {
+                img.classList.add('active');
+            }, (idx + 1) * 777)
+        });
 
-//         setTimeout(() => {
-//             logoSpan.forEach((img, idx) => {
-//                 setTimeout(() => {
-//                     img.classList.remove('active');
-//                     img.classList.add('fade');
-//                 }, (idx + 1) * 777)
-//             })
-//         }, 2000);
+        setTimeout(() => {
+            logoSpan.forEach((img, idx) => {
+                setTimeout(() => {
+                    img.classList.remove('active');
+                    img.classList.add('fade');
+                }, (idx + 1) * 777)
+            })
+        }, 2000);
 
-//         setTimeout(() => {
-//             intro.style.top = '-100vh';
-//         }, 4444);
+        setTimeout(() => {
+            intro.style.top = '-100vh';
+        }, 4444);
 
-//     });
-// });
+    });
+});
 
 
 // CURSOR
