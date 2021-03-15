@@ -34,21 +34,43 @@ $(document).mousemove(function (e) {
 })
 
 // MAKE ARTISTS TEXT IN NAVBAR BIGGER ON MOUSEENTER
-let items = document.querySelectorAll('.artistButton');
+let artistButton = document.querySelector('.artistButton');
+let landingCol = document.querySelectorAll('.landingPageCol');
+// let artistCol = document.querySelectorAll('.ar');
 
-items.forEach((link, i) => {
-    link.addEventListener('mouseenter', () => {
-        link.classList.add('bigger');
-    })
-    link.addEventListener('mouseleave', () => {
-        link.classList.remove('bigger');
-    })
+let card = document.querySelector('.cardRow');
+artistButton.addEventListener('mousedown', e => {
+    card.classList.add('test');
 })
 
-// SCROLL DOWN TO ARTIST COLUMN
+artistButton.addEventListener('mouseenter', e => {
+    artistButton.classList.add('bigger');
+})
+artistButton.addEventListener('mouseleave', e => {
+    artistButton.classList.remove('bigger');
+})
+
+artistButton.addEventListener('mousedown', e => {
+    landingCol.forEach((div, divX) => {
+        div.classList.add('remove');
+    });
+})
+
+// artistButton.addEventListener('mousedown', e => {
+//     artistCol.forEach((div, divX) => {
+//         div.classList.add('moveUp');
+//     });
+// })
+
+//SCROLL DOWN TO ARTIST COLUMN
 // $(".artistButton").click(function () {
 //     $('html,body').animate({
-//         scrollTop: $(".artistsTitle").offset().top
+//         scrollTop: $(".artistsTitleCol").offset().top
 //     },
 //         'slow');
 // });
+
+// REMOVE LOGO AND INFO
+
+
+// FADE IN ARTISTS
