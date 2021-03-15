@@ -36,9 +36,8 @@ $(document).mousemove(function (e) {
 // MAKE ARTISTS TEXT IN NAVBAR BIGGER ON MOUSEENTER
 let artistButton = document.querySelector('.artistButton');
 let landingCol = document.querySelectorAll('.landingPageCol');
-// let artistCol = document.querySelectorAll('.ar');
-
 let card = document.querySelector('.cardRow');
+
 artistButton.addEventListener('mousedown', e => {
     card.classList.add('test');
 })
@@ -55,12 +54,6 @@ artistButton.addEventListener('mousedown', e => {
         div.classList.add('remove');
     });
 })
-
-// artistButton.addEventListener('mousedown', e => {
-//     artistCol.forEach((div, divX) => {
-//         div.classList.add('moveUp');
-//     });
-// })
 
 //SCROLL DOWN TO ARTIST COLUMN
 // $(".artistButton").click(function () {

@@ -22,7 +22,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* INTRO */
 
-
 .splash {
     background-color: #3e6682;
     position: fixed;
@@ -143,47 +142,59 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 2rem;
 }
 
-.artistCol {
-    background-color: #264028;
-    color: #1D1D1B;
-    padding: 1em 1em;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #1D1D1B;
-    opacity: 0;
-}
+/* NEW ARTIST CARDS */
 
-.moveUp {
+.cardRow {
+    display: flex;
+    justify-content: space-around;
     opacity: 1;
-    transition: 1.5s;
 }
 
-.artistImgCol {
-    margin-top: 10px;
+.test {
+    transition: 1s;
+    opacity: 1;
+}
+
+.artistCard {
+    background-color: #264028;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+    margin-bottom: 2em;
+    border-radius: 22px;
+    color: #3e6682;
+}
+
+.artistCard:hover {
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.9);
+}
+
+.cardImageCol {
+    margin-top: 0.6em;
 }
 
 .portraitIMG {
-    border-width: 2px;
+    border-width: 4px;
     border-style: solid;
     border-color: #3e6682;
+    border-radius: 14px;
 }
 
-.artistNameCol {
-    margin-top: 1em;
+.cardNameCol {
+    text-align: center;
+    margin-top: 0.8em;
 }
 
 .nameText {
     font-size: 1.8rem;
 }
 
-.artistInfo {
-    min-height: 6rem;
-    margin: 0em;
-    font-size: 1rem;
+.cardInfoCol {
+    text-align: center;
+    padding: 0.5em;
+}
+
+.cardIgCol {
+    padding: 1.1em;
 }
 
 .linkPress {
@@ -196,7 +207,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .adressRow {
-    margin-top: 25px;
+    margin-top: 2em;
 }
 
 .adressCol {
@@ -211,47 +222,9 @@ h1, h2, h3, h4, h5, h6, p {
     border: 1px solid #1D1D1B;
 }
 
-/* NEW ARTIST CARDS */
-
-.cardRow {
-    display: flex;
-    justify-content: space-around;
-    opacity: 0;
-}
-
-.test {
-    transition: 1s;
-    opacity: 1;
-}
-
-.artistCard {
-    background-color: #264028;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
-    transition: 0.3s;
-    margin-bottom: 2em;
-}
-
-.artistCard:hover {
-    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.8);
-}
-
-.cardImageCol {
-    margin-top: 0.6em;
-}
-
-.cardNameCol {
-    text-align: center;
-}
-
-.cardInfoCol {
-    text-align: center;
-}
-
-.cardIgCol {}
-
 /* FADE STUFF */
 
-
+/*
 .fade-in-logo {
     animation: fadeInLogo ease 6.5s;
     -webkit-animation: fadeInLogo ease 6.5s;
@@ -442,4 +415,4 @@ h1, h2, h3, h4, h5, h6, p {
     100% {
         opacity: 1;
     }
-}
+}*/
