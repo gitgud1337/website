@@ -4,16 +4,25 @@ html, body {
     font-size: 1rem;
     font-family: 'Kumar One', cursive;
     color: #1D1D1B;
-    cursor: none;
+    cursor: none !important;
     /*background-color: #3e6682;*/
     /*background-color: #82754a;*/
     /*background-color: #423c29;*/
     /*background-color: #615736;*/
-    /*background: rgb(110,100,67);
-    background: radial-gradient(circle, rgba(110,100,67,1) 70%, rgba(62,102,130,1) 100%);*/
     /*background-color: #264028; GREEN*/
-    /*background-color: #2b3b2d; GREEN*/
-    background-color: #6e6443;
+    /*background-color: #2b3b2d; GREEN 6e6443*/
+    /*background-color: #6da674;*/
+
+    /*background: rgb(110,100,67);
+    background: radial-gradient(circle, rgba(110,100,67,1) 70%, rgba(62,102,130,1) 100%);
+    background: rgb(110,100,67);
+    background: radial-gradient(circle, rgba(110,100,67,1) 87%, rgba(62,102,130,1) 100%);
+
+    background: rgb(110,100,67);
+    background: radial-gradient(circle, rgba(110,100,67,1) 48%, rgba(42,66,44,1) 100%); */
+
+    background: rgb(110,100,67);
+    background: radial-gradient(circle, rgba(110,100,67,1) 69%, rgba(42,66,44,1) 100%); 
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -108,7 +117,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .landingPageCol {
     display: flex;
-    margin: 2em 0em;
+    margin: 1.8em 0em;
     padding: 2em;
     justify-content: center;
     align-items: center;
@@ -129,17 +138,18 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .artistsTitleCol {
-    background-color: #3e6682;
-    padding: 0.4em 0;
+    padding: 0.5em 0;
     text-align: center;
-    margin-bottom: 2em;
-    /*border-width: 1px;
+    margin-top: 0.7em;
+    margin-bottom: 0.5em;
+    /*background-color: #3e6682;
+    border-width: 1px;
     border-style: solid;
     border-color: #1D1D1B;*/
 }
 
 .titleText {
-    font-size: 2rem;
+    font-size: 3.3rem;
 }
 
 /* NEW ARTIST CARDS */
@@ -156,7 +166,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .artistCard {
-    background-color: #264028;
+    background-color: #3e6682;
     /*213823 - 2a422c*/
     width: 30rem;
     height: 44rem;
