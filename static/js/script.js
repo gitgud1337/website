@@ -29,9 +29,9 @@
 
 
 // CURSOR
-$(document).mousemove(function (e) {
-    $('.pointer').css({ left: e.pageX, top: e.pageY });
-})
+// $(document).mousemove(function (e) {
+//     $('.pointer').css({ left: e.pageX, top: e.pageY });
+// })
 
 // MAKE ARTISTS TEXT IN NAVBAR BIGGER ON MOUSEENTER
 // let artistButton = document.querySelector('.artistButton');
