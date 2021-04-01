@@ -5,20 +5,6 @@ html, body {
     font-family: 'Kumar One', cursive;
     color: #1D1D1B;
     cursor: crosshair;
-    /*background-color: #3e6682;*/
-    /*background-color: #82754a;*/
-    /*background-color: #423c29;*/
-    /*background-color: #615736;*/
-    /*background-color: #264028; GREEN*/
-    /*background-color: #6da674;*/
-    /*background: rgb(110,100,67);
-    background: radial-gradient(circle, rgba(110,100,67,1) 70%, rgba(62,102,130,1) 100%);
-    background: rgb(110,100,67);
-    background: radial-gradient(circle, rgba(110,100,67,1) 87%, rgba(62,102,130,1) 100%);
-    background: rgb(110,100,67);
-    background: radial-gradient(circle, rgba(110,100,67,1) 48%, rgba(42,66,44,1) 100%); */
-    /*background: rgb(110,100,67);
-    background: radial-gradient(circle, rgba(110,100,67,1) 69%, rgba(42,66,44,1) 100%); */
     background-color: #615736;
 }
 
@@ -28,72 +14,30 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* LANDINGPAGE */
 
-/*.navbar {
-    background-color: #264028;
-    justify-content: center;
-    align-items: center;
-    min-height: 6em;
-}
-
-.artistButton {
-    background: none;
-    border: none;
-    font-size: 2.4rem;
-    color: #1D1D1B;
-}
-
-.artistButton:hover {
-    cursor: crosshair;
-}
-
-.bigger {
-    font-size: 3rem;
-}*/
-
 .landingPageCon {
     max-width: 70rem;
 }
-
-/*.landingPageRow {
-    border-width: 1px;
-    border-style: solid;
-    border-color: #1D1D1B;
-    width: 100%;
-}*/
 
 .landingPageCol {
     display: flex;
     padding: 2em;
     justify-content: center;
     align-items: center;
-    /*text-align: left;*/
-    /*margin-top: 50px;
-    margin-bottom: 300px;*/
-    /*border-width: 1px;
-    border-style: solid;
-    border-color: #1D1D1B;
-    background-color: #264028;
-    margin: 0em 0em;
-    opacity: 1;
-    background-image: url('/static/img/Stoneblood_logo_square_small.png');*/
+    text-align: center;
 }
 
 .artistsTitleCol {
     padding: 0.5em 0;
     text-align: center;
-    margin-top: 0.7em;
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
-    /*background-color: #3e6682;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #1D1D1B;*/
 }
 
 .titleText {
     font-size: 3.3rem;
 }
 
-/* NEW ARTIST CARDS */
+/* ARTIST CARDS */
 
 .cardRow {
     display: flex;
@@ -102,34 +46,18 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .artistCard {
-    background-color: #3e6682;
-    /*213823 - 2a422c*/
+    background-color: #615736;
     width: 30rem;
-    /*height: 44rem;*/
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    /*box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);*/
     transition: 0.3s;
-    margin-bottom: 2em;
+    margin-bottom: 2.2em;
     border-radius: 22px;
     color: #1D1D1B;
-    /*position: relative;*/
 }
 
-.artistCard:hover {
+/*.artistCard:hover {
     box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.9);
-    /*width: 32rem;*/
-    /*height: 46rem;*/
-}
-
-.cardImageCol {
-    margin-top: 1.2em;
-}
-
-.portraitIMG {
-    border-width: 4px;
-    border-style: solid;
-    border-color: #1D1D1B;
-    border-radius: 14px;
-}
+}*/
 
 .cardNameCol {
     text-align: center;
@@ -146,7 +74,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .cardIgRow {
-    /*background-color: #2b402c;*/
     background-color: #213823;
     border-bottom-left-radius: 14px;
     border-bottom-right-radius: 14px;
@@ -167,16 +94,8 @@ h1, h2, h3, h4, h5, h6, p {
     color: #333331;
 }
 
-.adressRow {
-    margin-top: 2em;
-}
-
-.adressCol {
-    text-align: center;
-}
-
 .adressText {
-    font-size: 0.8rem;
+    font-size: 1.6rem;
 }
 
 .pageLine {
