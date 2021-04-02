@@ -42,26 +42,18 @@ h1, h2, h3, h4, h5, h6, p {
 .cardRow {
     display: flex;
     justify-content: space-around;
-    opacity: 1;
 }
 
 .artistCard {
     background-color: #615736;
     width: 30rem;
-    /*box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);*/
-    transition: 0.3s;
-    margin-bottom: 2.2em;
+    margin-bottom: 0.2em;
     border-radius: 22px;
     color: #1D1D1B;
 }
 
-/*.artistCard:hover {
-    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.9);
-}*/
-
 .cardNameCol {
     text-align: center;
-    margin-top: 1.2em;
 }
 
 .nameText {
@@ -71,14 +63,6 @@ h1, h2, h3, h4, h5, h6, p {
 .cardInfoCol {
     text-align: center;
     padding: 0.5em;
-}
-
-.cardIgRow {
-    background-color: #213823;
-    border-bottom-left-radius: 14px;
-    border-bottom-right-radius: 14px;
-    position: absolute; bottom: 0;
-    width: 100%;
 }
 
 .cardIgCol {
